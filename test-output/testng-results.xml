@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[reading value ofurlfrom property file]]>
+    </line>
+    <line>
+      <![CDATA[launchingBrowser]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofmobNumfrom property file]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[sending Mobile Number]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[clicking on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofpassfrom property file]]>
+    </line>
+    <line>
+      <![CDATA[waiting for3000milis]]>
+    </line>
+    <line>
+      <![CDATA[sending password]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[clicking on submit button]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[handling popUp]]>
+    </line>
+    <line>
+      <![CDATA[getting user name]]>
+    </line>
+    <line>
+      <![CDATA[reading value ofuserNamefrom property file]]>
+    </line>
+    <line>
+      <![CDATA[getting user name]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[waiting for1000milis]]>
+    </line>
+    <line>
+      <![CDATA[logging out from neostox]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-13T18:47:43 IST" name="Default suite" finished-at="2022-12-13T18:50:00 IST" duration-ms="136998">
+    <groups>
+    </groups>
+    <test started-at="2022-12-13T18:47:43 IST" name="Default test" finished-at="2022-12-13T18:50:00 IST" duration-ms="136998">
+      <class name="neoStoxTest.ValidateNeostoxUserName">
+        <test-method is-config="true" signature="launchNeostox()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@74751b3]" started-at="2022-12-13T18:47:43 IST" name="launchNeostox" finished-at="2022-12-13T18:49:05 IST" duration-ms="81778" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading value ofurlfrom property file]]>
+            </line>
+            <line>
+              <![CDATA[launchingBrowser]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchNeostox -->
+        <test-method is-config="true" signature="loginToNeostox()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@74751b3]" started-at="2022-12-13T18:49:05 IST" name="loginToNeostox" finished-at="2022-12-13T18:49:56 IST" duration-ms="51364" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[reading value ofmobNumfrom property file]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[sending Mobile Number]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[clicking on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[reading value ofpassfrom property file]]>
+            </line>
+            <line>
+              <![CDATA[waiting for3000milis]]>
+            </line>
+            <line>
+              <![CDATA[sending password]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[clicking on submit button]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[handling popUp]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToNeostox -->
+        <test-method signature="validateUserName()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@74751b3]" started-at="2022-12-13T18:49:56 IST" name="validateUserName" finished-at="2022-12-13T18:49:57 IST" duration-ms="423" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\software\Screenshot\Hi Prajakta Kshirsagar.png (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\software\Screenshot\Hi Prajakta Kshirsagar.png (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
+at neoStoxPOM.UtilityNew.takesScreenshot(UtilityNew.java:37)
+at neoStoxTest.ValidateNeostoxUserName.validateUserName(ValidateNeostoxUserName.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[getting user name]]>
+            </line>
+            <line>
+              <![CDATA[reading value ofuserNamefrom property file]]>
+            </line>
+            <line>
+              <![CDATA[getting user name]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@74751b3]" started-at="2022-12-13T18:49:57 IST" name="logout" finished-at="2022-12-13T18:49:57 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[waiting for1000milis]]>
+            </line>
+            <line>
+              <![CDATA[logging out from neostox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:neoStoxTest.ValidateNeostoxUserName@74751b3]" started-at="2022-12-13T18:49:57 IST" name="closeApplication" finished-at="2022-12-13T18:50:00 IST" duration-ms="3032" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- neoStoxTest.ValidateNeostoxUserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
